@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Diário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Sora:wght@100..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+    <header class="page-header">
+        <img id="profile-img" src="./profile-img.png" alt="Wanessa fazendo sinal de paz com expressão divertida">
+        <p class="username">@wanessamelgar</p>
+        <h1>Daily</h1>
+    </header>
+
+        <section class="posts">
+            <article class="post">
+                <header>
+                <span class="tag fastapi">FASTAPI</span>
+                <h2>FastAPI</h2>
+                </header>
+                <p class="excerpt">
+                    Recentemente iniciei um projeto com FASTAPI pra entender seu funcionamento. Começamos pela
+                    configuração do ambiente de desenvolvimento. Para este projeto optamos por utilizar o pipx para instalação e execução de pacotes na linha de comando e o poetry para a criação de uma estrutura básica para o projeto. Em seguida, instalamos a versão mais atual do Python e alteramos o arquivo de configuração do projeto. Depois, criamos o ambiente virtual e usamos o gerenciador de dependências para instalar o fastapi com recursos opcionais recomendados. Adicionamos um código básico para imprimir "Olá Mundo!", iniciamos um servidor e testamos a aplicação. Foi uma experiência incrível!
+                </p>
+                <p class="post-meta">
+                    <time datetime="2025-06-30">30 de Junho de 2025</time>
+                </p>
+            </article>
+
+            <article class="post">
+                <header>
+                <span class="tag deploy">Deploy</span>
+                <h2>Deploy com Surge</h2>
+                </header>
+                <p class="excerpt">
+                    Hoje explorei uma ferramenta super prática para fazer deploy de sites estáticos, o Surge. Com ele, consegui publicar meu projeto com apenas um comando no terminal. É ideal para projetos simples em HTML, CSS e JavaScript, como portfólios e páginas pessoais. O mais legal é que o site fica acessível imediatamente com uma URL do tipo nomedosite.surge.sh. Achei a experiência muito fluida e já quero testar em mais projetos!
+                </p>
+                <p class="post-meta">
+                    <time datetime="2025-06-23">23 de Junho de 2025</time>
+                </p>
+            </article>
+  
+            <article class="post">
+                <header>
+                <span class="tag acessibilidade">Acessibilidade</span>
+                <h2>Acessibilidade na Web</h2>
+                </header>
+                <p class="excerpt">
+                    Durante a segunda semana do Programa Desenvolve GB, refletimos bastante sobre acessibilidade na web, um tema essencial e, muitas vezes, negligenciado. Aprendi que tornar nossas aplicações mais inclusivas vai muito além do design: envolve boas práticas de HTML e empatia com quem navega. Por exemplo, incluir o atributo alt em imagens permite que leitores de tela descrevam o conteúdo para pessoas com deficiência visual. Também é importante usar tags semânticas <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, etc., garantir bom contraste entre texto e fundo e permitir navegação com o teclado.
+                </p>
+                <p class="post-meta">
+                    <time datetime="2025-06-26">17 de Junho de 2025</time>
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Diário Pessoal <span title="Bandeira do Orgulho LGBTQIA+">🏳️‍🌈</span></p>
+    </footer>
+</body>
+
+</html>

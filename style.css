@@ -1,0 +1,126 @@
+/* CSS Variables para cores */
+:root {
+    --text-color: #222;
+    --background-color: #fdfcef;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #fdfcef;
+        --background-color: #222;
+    }
+}
+
+/* Reset e configurações básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sometype Mono", monospace;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 40px;
+    /* Extra - Personalização do cursor */
+    /* cursor: pointer; */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.page-header {
+    margin-bottom: 40px;
+}
+
+#profile-img {
+    width: 100%;
+    max-width: 62px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    font-size: 12px;
+    text-align: start;
+}
+
+.username {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: "Sora", sans-serif;
+}
+
+.page-header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.post header {
+    margin-bottom: 10px;
+}
+
+.post h2 {
+    font-size: 32px;
+    margin-top:  10px;
+}
+
+.tag {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.fastapi {
+    background-color: #97cafa;
+    color: #003366;
+}
+
+.deploy {
+    background-color: #f7dc6f;
+    color: #660033;
+}
+
+.acessibilidade {
+    background-color: #f6a0c3;
+    color: #660033;
+}
+
+.excerpt {
+    font-size: 18px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+code {
+    color: #ec34fd;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+
+
